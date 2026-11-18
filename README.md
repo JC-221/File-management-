@@ -1,2 +1,2 @@
 # File-management-
-Writing in file and searching in file
+program to write in file and searching in file accordingly to your wishes
