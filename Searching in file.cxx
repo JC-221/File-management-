@@ -4,10 +4,11 @@
 
 /*function declaration to check weather it is uppercase or lowercase and then fix it*/
 
-int sametext(char a[], char b[])
+int sametext(char a[], char b[])//function to accept two strings, one saved in file and another typed by the user
 {
     int i = 0;
 
+    /*program to be executed whenever we don't reach the end of the string*/
     while (a[i] != '\0' && b[i] != '\0')
     {
         if (tolower(a[i]) != tolower(b[i]))
@@ -18,6 +19,7 @@ int sametext(char a[], char b[])
         i++;
     }
 
+    /*when the iteration in the program reaches the end of the string*/
     if (a[i] == '\0' && b[i] == '\0')
     {
         return 1;
